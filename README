@@ -1,0 +1,11 @@
+The iot project contains:
+  - .gitignore: the file that specifies which files and directories to ignore in git
+  - .pio: the directory that contains the PlatformIO build files
+  - .vscode: the directory that contains the Visual Studio Code configuration files
+  - include: the header files for the project
+  - platformio.ini: the configuration file for PlatformIO
+  - README: this file
+  - sdkconfig: the file that contains the SDK configuration for the project
+  - src: the main source code of the project
+  - test: This directory is intended for PlatformIO Test Runner and project tests.
+  - lib: This directory is intended for project specific (private) libraries.

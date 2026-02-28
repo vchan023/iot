@@ -1,0 +1,28 @@
+
+# PlatformIO
+.pio/
+
+# CMake
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+
+# ESP-IDF
+sdkconfig*
+*.bin
+*.elf
+*.map
+*.log
+
+# OS/Editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*.orig
+
+# Misc
+*.pyc
+__pycache__/
