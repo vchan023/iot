@@ -1,15 +1,46 @@
-The iot project contains:
+# IoT ESP32 FreeRTOS Project
 
-- .github: the directory that contains the GitHub configuration files
-- .gitignore: the file that specifies which files and directories to ignore in git
-- .pio: the directory that contains the PlatformIO build files
-- .vscode: the directory that contains the Visual Studio Code configuration files
-- graveyard: This directory is intended for code that has been removed from the project but good to keep for reference.
-- include: the header files for the project
-- lib: This directory is intended for project specific (private) libraries.
-- plan.exacalidraw - the file that contains the project plan in Excalidraw format
-- platformio.ini: the configuration file for PlatformIO
-- README: this file
-- sdkconfig: the file that contains the SDK configuration for the project
-- src: the main source code of the project
-- test: This directory is intended for PlatformIO Test Runner and project tests.
+This project is an ESP32-based IoT application using PlatformIO and FreeRTOS. It is designed for modular task management, including uptime tracking, button input, and light control. The codebase is structured for clarity, maintainability, and easy extension.
+
+PlatformIO streamlines the setup of the ESP32 development environment, making it efficient and accessible for rapid prototyping and deployment.
+
+## Features
+
+- Modular FreeRTOS tasks for uptime, button, and light control
+- Clean separation of application logic and hardware abstraction
+- Easy integration of new features via the `lib/` directory
+- Example plans and deprecated code for reference
+
+## Directory Structure
+
+| Directory/File  | Description                                              |
+| --------------- | -------------------------------------------------------- |
+| .github/        | GitHub configuration files                               |
+| .gitignore      | Git ignore rules                                         |
+| .pio/           | PlatformIO build files                                   |
+| .vscode/        | VS Code configuration                                    |
+| graveyard/      | Deprecated code for reference                            |
+| include/        | Project header files                                     |
+| lib/            | Project-specific libraries (uptime, button, light, etc.) |
+| plan.excalidraw | Project plan (Excalidraw format)                         |
+| platformio.ini  | PlatformIO configuration                                 |
+| README          | Project documentation (this file)                        |
+| sdkconfig       | ESP32 SDK configuration                                  |
+| src/            | Main application source code                             |
+| test/           | PlatformIO Test Runner and tests                         |
+
+## Build & Upload Instructions
+
+1. Install [PlatformIO](https://platformio.org/) and [VS Code](https://code.visualstudio.com/).
+2. Open the project folder in VS Code.
+3. Use PlatformIO commands to build and upload firmware to your ESP32 device:
+   - Build: `PlatformIO: Build`
+   - Upload: `PlatformIO: Upload`
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+For questions or contributions, please open an issue or pull request.
