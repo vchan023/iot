@@ -7,7 +7,7 @@
 #include <uptime.h>
 #include <button.h>
 #include <light.h>
-// #include <wifi.h>
+#include <wifi.h>
 
 static const char *TAG = "main";
 
@@ -18,5 +18,5 @@ void app_main()
     uptime_task_init();
     button_task_init();
     light_task_init();
-    // wifi_task_init();
+    wifi_task_init();
 }
